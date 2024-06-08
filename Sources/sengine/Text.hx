@@ -28,7 +28,7 @@ class Text extends Object {
         this.x = (p.game.width / 2) - (this.getWidth()/2);
     }
 	public function centerVertically(p: Page = null) {
-		if (p == null) {
+		if (p == null) { //not really necessary, ill keep it for now though
             p = this.parent;
         }
         this.y = (p.game.height / 2) - (this.getHeight()/2);

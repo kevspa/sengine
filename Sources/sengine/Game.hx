@@ -51,7 +51,7 @@ class Game {
 	private function _render(frames:Array<Framebuffer>) {
 		final g2 = frames[0].g2;
 		g2.begin(!paused, currentPage.backgroundColor);
-		currentPage.render(g2);
+		currentPage._render(g2);
 		g2.end();
 	}
 
