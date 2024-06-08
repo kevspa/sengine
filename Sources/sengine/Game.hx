@@ -5,7 +5,7 @@ import kha.input.Keyboard;
 import kha.Framebuffer;
 import kha.Scheduler;
 
-//just doing alias until i figure out a better way to interface with kha classes
+// just doing alias until i figure out a better way to interface with kha classes
 typedef System = kha.System;
 typedef Assets = kha.Assets;
 typedef Font = kha.Font;
@@ -13,6 +13,8 @@ typedef Color = kha.Color;
 typedef Graphics = kha.graphics2.Graphics;
 typedef Window = kha.Window;
 typedef KeyCode = kha.input.KeyCode;
+typedef Scheduler = kha.Scheduler;
+// typedef Image = kha.Image; //messes shit up, left out for now
 
 class Game {
 	public var title:String;
