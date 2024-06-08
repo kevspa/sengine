@@ -2,7 +2,7 @@ package sengine;
 
 import kha.graphics2.Graphics;
 
-class Rectangle extends Object {
+class Rectangle extends Shape {
     public var fill: Bool;
 
     public function new(x: Float, y: Float, width: Int, height: Int, fill: Bool = true) {
